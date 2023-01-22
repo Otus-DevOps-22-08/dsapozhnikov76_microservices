@@ -1,0 +1,10 @@
+derek@dell5547 ~ $ docker images
+REPOSITORY                          TAG                 IMAGE ID            CREATED             SIZE
+otus/docker-image/ubuntu-tmp-file   latest              c22761c385ac        14 seconds ago      63.1MB
+ubuntu                              18.04               8d5df41c547b        5 days ago          63.1MB
+hello-world                         latest              feb5d9fea6a5        10 months ago       13.3kB
+
+
+Вывод команды inspect для контейнера имеет ссылку на образ(image) и описывает конфигурацию хоста, на котором контейнер запущен.
+Образ(image) не может содержать этих деталей, так как является только заготовкой контейнера.
+
